@@ -20,7 +20,9 @@
       <h3>School: <input name="school" /></h3>
       <h3>Desired username: <input name="teacher_username" /></h3>
   <?php
-function randomPassword() {
+    $pass = array();
+    
+    function randomPassword() {
     $alphabet = "abcdefghijklmnopqrstuwxyzABCDEFGHIJKLMNOPQRSTUWXYZ0123456789";
     $pass = array(); //remember to declare $pass as an array
     $alphaLength = strlen($alphabet) - 1; //put the length -1 in cache
