@@ -50,7 +50,7 @@ function generatePassword($length=9, $strength=0) {
 	}
 	return $password;
 }
- 
+ generatePassword ();
 ?>
       <input type="submit" />
     </form>
